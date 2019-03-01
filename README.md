@@ -71,7 +71,6 @@ createPages = (): Page[] => {
 
 | Key | Description | Default | Required | Type |
 |---|---|---|---|---|
-
 |**`currentStatus`**|Name of the status associated to the current page|`None`|`true`|`string`|
 |**`pages`**|The array of pages that have to be displayedPage|`None`|`true`|`Page[]`|
 |**`orderedStatuses`**|The array of ordered statuses use to transition the pages|`None`|`true`|`any[]`|
