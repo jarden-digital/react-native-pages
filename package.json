@@ -1,0 +1,43 @@
+{
+  "name": "@fnzc/react-native-pages",
+  "version": "1.0.0",
+  "description": "A component to handle transition between pages based on a list of ordered statuses",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "compile": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fnzc/react-native-pages.git"
+  },
+  "keywords": [
+    "react-native",
+    "pages",
+    "rules",
+    "transition"
+  ],
+  "author": "Jeremy Farnault <farnaultjeremy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fnzc/react-native-pages/issues"
+  },
+  "homepage": "https://github.com/fnzc/react-native-pages#readme",
+  "devDependencies": {
+    "@types/d3-ease": "^1.0.7",
+    "@types/lodash": "^4.14.109",
+    "@types/react": "^16.3.17",
+    "@types/react-native": "^0.55.17",
+    "typescript": "2.8.3"
+  },
+  "dependencies": {
+    "d3-ease": "^1.0.3",
+    "lodash": "^4.17.10",
+    "react-move": "^2.7.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
